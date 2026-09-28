@@ -17,12 +17,20 @@ Em vez de selecionar uma única janela por regras fixas, o pacote calcula:
 
 ## Documentação
 
+- [Manual detalhado em PDF](output/pdf/manual_detalhado_modelagem_probabilistica.pdf)
+- [Fonte editável do manual detalhado](docs/manual_detalhado.md)
 - [Overview matemático com equações renderizadas](notebooks/overview_matematico.ipynb)
 - [Fonte Markdown do overview matemático](docs/overview_matematico.md)
 - [Overview operacional, conceitos e funções Python](docs/overview.md)
 - [Metodologia e fórmulas](docs/metodologia.md)
 - [Tutorial executável: derivação passo a passo](notebooks/tutorial_inferencia_bayesiana.ipynb)
 - [Exemplo executável](example.py)
+
+Para reconstruir o PDF com `uv`:
+
+```bash
+uv run --extra docs python scripts/build_manual_pdf.py
+```
 
 ## Instalação
 

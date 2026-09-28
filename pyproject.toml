@@ -13,6 +13,14 @@ dependencies = [
   "scipy>=1.10",
 ]
 
+[project.optional-dependencies]
+docs = [
+  "matplotlib>=3.8",
+  "pdfplumber>=0.11",
+  "pypdf>=5.0",
+  "reportlab>=4.2",
+]
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
