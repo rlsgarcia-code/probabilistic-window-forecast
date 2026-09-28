@@ -1,0 +1,3 @@
+include example.py
+recursive-include docs *.md
+recursive-include notebooks *.ipynb
